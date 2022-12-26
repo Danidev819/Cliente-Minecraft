@@ -1,11 +1,11 @@
 package me.danipro.tutorialclient.client.events;
 
 public enum EventPriority {
-    FIRST(0),
-    SECOND(1),
-    THIRD(2),
-    FOURTH(3),
-    FIFTH(4);
+    FIRST((byte)0),
+    SECOND((byte)1),
+    THIRD((byte)2),
+    FOURTH((byte)3),
+    FIFTH((byte)4);
 
     private final byte priority;
 
